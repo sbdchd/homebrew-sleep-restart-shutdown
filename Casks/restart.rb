@@ -5,7 +5,7 @@ cask :v1 => 'restart' do
   url "https://github.com/sbdchd/sleep-restart-shutdown-apps/releases/download/#{version}/Restart-v#{version}.zip"
   name 'Restart'
   homepage 'https://github.com/sbdchd/sleep-restart-shutdown-apps'
-  license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :bsd
 
   app 'Restart.app'
 end

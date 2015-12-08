@@ -4,7 +4,7 @@ cask :v1 => 'shutdown' do
   url "https://github.com/sbdchd/sleep-restart-shutdown-apps/releases/download/#{version}/Shutdown-v#{version}.zip"
   name 'Shutdown'
   homepage 'https://github.com/sbdchd/sleep-restart-shutdown-apps'
-  license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :bsd
 
   app 'Shutdown.app'
 end
