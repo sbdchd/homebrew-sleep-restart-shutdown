@@ -1,6 +1,6 @@
 cask :v1 => 'shutdown' do
-  version '0.1'
-  sha256 'ec5d9d260cb37e0688629d1500dd968f34784b0db065bce984a8a28064496f4b'
+  version '0.2'
+  sha256 '7c17cea3ca24af029fe52a43276ba68296f191b5bf36d4ec949f398a45cff0ee'
   url "https://github.com/sbdchd/sleep-restart-shutdown-apps/releases/download/#{version}/Shutdown-v#{version}.zip"
   name 'Shutdown'
   homepage 'https://github.com/sbdchd/sleep-restart-shutdown-apps'
